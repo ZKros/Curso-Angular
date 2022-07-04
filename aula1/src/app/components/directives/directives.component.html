@@ -1,0 +1,10 @@
+<div class="class">
+    <h2 *ngIf="show" [ngStyle]="{'font-size': size + 'px', 'font-family': font, color : color }"> Testando Diretiva de Estilos /
+        style
+    </h2>
+
+    <h2 *ngIf="show" [ngClass]="classes"> Testendo Diretivas de Classes!</h2>
+    <h2 *ngIf="show" [ngClass]="underline1"> Testendo Diretivas de Classes!</h2>
+    <button (click)="showMessage()"> Texto Oculto</button>
+
+</div>

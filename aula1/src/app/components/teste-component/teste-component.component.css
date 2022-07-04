@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: aqua;
+}
+
+h3 {
+    color: yellow;
+}
+
+p {
+    color: yellowgreen;
+    font-style: italic;
+    border-radius: 10;
+    text-decoration: underline;
+}
